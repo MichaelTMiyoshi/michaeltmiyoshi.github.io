@@ -2,10 +2,20 @@
 <html>
 <head>
 <style>
+body {
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}
+  
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 800 px;
+  width: 90%;
 }
 
 td, th {
@@ -14,9 +24,19 @@ td, th {
   padding: 8px;
 }
 
+input.right{
+  float: right;
+}
 </style>
 </head>
 <body>
+<script>
+  function toggleMode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+  }
+</script>
+<input type="button" value="Mode" onclick="toggleMode() class="right">
 <h1>Michael T. Miyoshi GitHub Repository Index</h1>
 <h2>Classes</h2>
 <p>The links below take you to the appropriate class assignments and projects</p>

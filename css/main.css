@@ -7,14 +7,13 @@ body {
 .light-mode {
   background-color: white;
   color: black;
+  a {
+    color: blue;
+  }
 }
 
 a {
   color: cyan;
-}
-
-a.light-mode {
-  color: blue;
 }
 
 table {

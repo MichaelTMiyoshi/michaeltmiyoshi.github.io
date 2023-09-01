@@ -3,6 +3,7 @@ body {
   background-color: black;
   color: white;
 }
+
 .light-mode {
   background-color: white;
   color: black;
@@ -11,6 +12,11 @@ body {
 a {
   color: cyan;
 }
+
+a.light-mode {
+  color: blue;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;

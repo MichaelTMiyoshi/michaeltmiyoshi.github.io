@@ -4,14 +4,6 @@ body {
   color: white;
 }
 
-.light-mode {
-  background-color: white;
-  color: black;
-  a {
-    color: blue;
-  }
-}
-
 a {
   color: cyan;
 }
@@ -30,4 +22,13 @@ td, th {
 
 input.right{
   float: right;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode a {
+  color: blue;
 }
